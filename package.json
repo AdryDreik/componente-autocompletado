@@ -1,6 +1,6 @@
 {
   "name": "componente-autocompletado",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Este es un componente creado usando Vuejs y otras tecnologias para la bpm",
   "main": "index.js",
   "scripts": {
