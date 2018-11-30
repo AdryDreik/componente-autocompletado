@@ -1,4 +1,4 @@
-import Component from '../autocompletado/html/autocompletado-html.vue';
+import Component from './html/autocompletado-html.vue';
 
 module.exports = {
   install: function (Vue, options) {
