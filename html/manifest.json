@@ -1,0 +1,17 @@
+{
+  "nombre": "autocompletado",
+  "descripcion": "Componenente utilizado para realizar busquedas de acuerdo a una lista de opciones, esta lista puede ser cargada desde un archivo csv.",
+  "version": "1.0",
+  "autor": "dbarra@agetic.gob.bo",
+  "templateOptions": {
+    "order": 1,
+    "label" : "Nombre",
+    "id" : null,
+    "placeholder" : "Escriba palabras como algo, eso, etc",
+    "validations" : [],
+    "value" : null,
+    "icon" : "input",
+    "image" : "../../../static/images/plugins/autocompletado.png"
+  }
+}
+
