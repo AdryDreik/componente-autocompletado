@@ -1,0 +1,43 @@
+{
+  "name": "componente-autocompletado",
+  "version": "1.0.0",
+  "description": "Este es un componente creado usando Vuejs y otras tecnologias para la bpm",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_ENV=development && webpack-dev-server --inline --progress && webpack --config ./webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.geo.gob.bo:agetic/bpm/componentes/autocompletado.git"
+  },
+  "keywords": [
+    "autocompletado"
+  ],
+  "author": "dbarra@agetic.gob.bo",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.5.16",
+    "vuetify": "^1.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-runtime": "^6.26.0",
+    "css-loader": "^1.0.1",
+    "rimraf": "^2.6.2",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^1.0.0-beta.3",
+    "url-loader": "^1.1.2",
+    "vue-html-loader": "^1.2.4",
+    "vue-loader": "^15.4.2",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}

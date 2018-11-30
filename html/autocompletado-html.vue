@@ -205,7 +205,7 @@
   </v-card>
 </template>
 <script>
-import validate from '../../validate.js';
+import validate from './validate.js';
 import axios from 'axios';
 import AceEditor from 'vue2-ace-editor';
 import slugify from 'slugify';
